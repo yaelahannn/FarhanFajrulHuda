@@ -1,0 +1,25 @@
+name: modul_2_chart
+description: Modul 2 praktikum mata kuliah PPBL
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  fl_chart: ^0.64.0
+  collection: ^1.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data_sensor.csv
+    - assets/soil_hum.json
